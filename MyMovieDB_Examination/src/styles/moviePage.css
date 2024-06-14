@@ -1,0 +1,40 @@
+.detailed-movie-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    color: white;
+    background-color: black;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.detailed-movie {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.favorite-button-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+
+.detailed-movie-wrapper .movie-poster {
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    border: 3px solid yellow;
+}
+
+.detailed-movie-wrapper button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 33px;
+    color: black
+}

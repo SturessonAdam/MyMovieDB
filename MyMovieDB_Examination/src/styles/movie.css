@@ -1,0 +1,61 @@
+.movie-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 500px;
+    width: 100vw;
+    max-height: 7rem;
+    height: 100%;
+    padding: 10px;
+    align-items: center;
+    background-color: black;
+}
+
+.movie-poster {
+    height: 80px;
+    width: auto;
+    margin-right: 10px;
+    border: 3px solid white;
+}
+
+.movie-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.movie-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.movie-title-link {
+    display: inline;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.movie-title-link :hover {
+    color: greenyellow;
+}
+
+.movie-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 28px;
+    color: black
+}
+
+button .fa-trash-alt {
+    color: red; 
+}
+
+button .fa-star {
+    color: gold;
+}
